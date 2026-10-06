@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { ArrowDown, ArrowUpRight, Asterisk } from "lucide-react";
-import portrait from "@/assets/wahab-editorial.jpg";
+import portrait from "@/assets/wahab-shadow-editorial.jpg";
 import raahPreview from "@/assets/raah-e-hidayath.png";
 import sawaaPreview from "@/assets/sawaa-enterprise.png";
 
@@ -57,7 +57,7 @@ function Portfolio() {
   return (
     <main className="portfolio-shell" id="top">
       <section className="hero" aria-label="Syed Abdul Wahab introduction">
-        <img className="hero-image" src={portrait} alt="Syed Abdul Wahab in a black textured jacket at his laptop" width={1536} height={1024} />
+        <img className="hero-image" src={portrait} alt="Syed Abdul Wahab in a dramatic half-shadow portrait" width={1536} height={1024} />
         <div className="hero-grain" aria-hidden="true" />
         <Header />
         <div className="hero-copy">
